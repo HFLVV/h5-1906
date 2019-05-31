@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+}
+
+li {
+    list-style: none;
+    font-size: 12px;
+    color: #666;
+}
+
+a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #666;
+}
+.register{
+    padding-top: 15px;
+    overflow: hidden;
+    margin-left: 41px;
+}
+.register>li{
+    min-height: 60px;
+    padding-bottom: 5px;
+}
+.register>li>label{
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+    /* float: left; */
+    height: 20px;
+    margin-top: 8px;
+    font-size: 14px;
+    text-align: right;
+}
+.register>li>input{
+    color: #666;
+    padding: 12px 0 12px 10px;
+    border: 1px solid #c6c6c6;
+    height: 14px;
+    line-height: 14px;
+    width: 253px;
+    /* float: left; */
+    font-size: 14px;
+    outline: 0;
+}
+.register>li>span{
+    display:inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align:middle;
+}
+.register>li>p{
+    margin-left: 80px;
+    margin-top: 5px;
+}
+.strong{
+    margin: 5px 0 0 85px;
+    width: 280px;
+    display: none;
+}
+.strong>span{
+    display: inline-block;
+    width: 50px;
+    height: 14px;
+    line-height: 14px;
+    color: #fff;
+    text-align: center;
+    margin-right: 10px;
+    background: #c6c6c6;
+    vertical-align:middle;
+}
+.strong>em{
+    width: 14px;
+    height: 16px;
+    display: inline-block;
+    font-style: normal;
+    vertical-align:middle;
+}
+.register .verify>input{
+    width: 142px;
+    vertical-align: middle;
+}
+.register .verify>span{
+    display: inline-block;
+    background: #e2e2e2;
+    width: 110px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.register>.last>input{
+    margin-left: 83px;
+    width: 263px;
+    height: 40px;
+    color: #fff;
+    outline: 0;
+    border: 0;
+    background: url(../img/img1/spriteImg9.png);
+}
+.content{
+    display: none;
+   
+}

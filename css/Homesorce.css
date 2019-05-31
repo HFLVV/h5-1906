@@ -1,0 +1,235 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+}
+
+li {
+    list-style: none;
+    font-size: 12px;
+    color: #666;
+}
+
+a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #666;
+}
+.sorce{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background:rgba(0,0,0, .5);
+    z-index: 200;
+    display: none;
+}
+.alertbox{
+    left: 420px;
+    top:  155px;
+    position: fixed;
+    background: #fff;
+    min-width: 200px;
+    min-height: 200px;
+}
+.alertbox>div:nth-child(1){
+    width: 542px;
+    height: 49px;
+    border-bottom: 1px solid #e2e2e2;
+    background: #f9f9f9;
+}
+.alertbox>div:nth-child(1)>span:nth-child(1){
+    display: block;
+    float: left;
+    width: 59px;
+    height: 30px;
+    background: url(../img/img1/juanpi-logo.gif) no-repeat;
+    margin: 10px 0 0 15px;
+}
+.alertbox>div:nth-child(1)>span:nth-child(2){
+    display: block;
+    height: 24px;
+    width: 24px;
+    background: url(../img/img1/swiperImgsorce.png) no-repeat -173px -722px;
+    display: block;
+    float: right;
+    margin-right: 20px;
+    margin-top: 17px;
+}
+.alertbox>div:nth-child(2){
+    height: 430px;
+    width: 502px;
+
+    margin:0 auto;
+}
+.sorcenav{
+    overflow: hidden;
+    margin-left: 121px;
+    background: #fff;
+}
+.sorcenav>div:nth-child(1){
+    float: left;
+    font-size: 16px;
+    border-bottom: #c6c6c6 solid 1px;
+    width: 126px;
+    text-align: center;
+    background: url(../img/img1/11111.png) no-repeat right 5px;
+    height: 34px;
+    line-height:34px;
+}
+.sorcenav>div:nth-child(2){
+    float: left;
+    font-size: 16px;
+    border-bottom: #c6c6c6 solid 1px;
+    width: 126px;
+    text-align: center;
+    /* background: url(../img/img1/11111.png) no-repeat right 5px; */
+    height: 34px;
+    line-height:34px;
+}
+.inputlist{
+    width: 260px;
+    margin-left: 121px;
+    clear: both;
+    padding-top: 15px;
+    height: 380px;
+    overflow: hidden;
+    display: none;
+}
+.inputlist>li{
+    /* padding-bottom: 20px; */
+    position: relative;
+    overflow: visible;
+    height: 45px;
+    min-height: 60px;
+}
+.inputlist>li>div{
+    float: left;
+    width: 250px;
+    height: 38px;
+    position: relative;
+    border: 1px solid #c6c6c6;
+}
+.inputlist>li>div>span:nth-child(1){
+    display: block;
+    width: 39px;
+    height: 38px;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.inputlist>li>div>span:nth-child(3){
+    display:block;
+    margin-top: 40px;
+    opacity: 0;
+}
+.inputlist>li>div>input{
+    color: #666;
+    font-size: 100%;
+    padding: 10px 0 10px 5px;
+    height: 18px;
+    line-height: 18px;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    left: 39px;
+    border: 0;
+    outline: 0;
+}
+.inputlist>li:nth-child(1){
+    padding-bottom: 20px;
+}
+.inputlist>li:nth-child(2){
+    padding-bottom: 20px;
+}
+.inputlist>li:nth-child(1)>div>span:nth-child(1){
+    background:url(../img/img1/people.jpg)
+}
+.inputlist>li:nth-child(2)>div>span:nth-child(1){
+    background:url(../img/img1/pass.jpg)
+}
+.inputlist>div:nth-child(3){
+    height: 20px;
+    padding-bottom: 10px;
+}
+.inputlist>div:nth-child(3)>span{
+
+      font-size: 12px;
+}
+.inputlist>div:nth-child(3)>span:nth-child(3){
+    float: right;
+}
+.inputlist>div:nth-child(3)>span:nth-child(2){
+    margin-right: 10px;
+}
+.inputlist>div:nth-child(3)>span:nth-child(1){
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+}
+.inputlist>li:nth-child(4)>div{
+    width: 260px;
+    height: 38px;
+    border: none;
+    padding-bottom: 0;
+}
+.inputlist>li:nth-child(4)>div>input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 0;
+    outline: 0;
+    width: 260px;
+    height: 38px;
+    background: url(../img/img1/spriteImg9.png);
+    cursor: pointer;
+    color: #FFF;
+}
+.inputlist>div:nth-child(5)>p{
+    font-size: 12px;
+}
+.inputlist>div:nth-child(5)>p:nth-child(2){
+    margin-top: 10px;
+}
+.inputlist>div:nth-child(5)>p:nth-child(2)>span{
+    display: inline-block;
+}
+.inputlist>div:nth-child(5)>p:nth-child(2)>span:nth-child(2){
+   float: right;
+}
+.inputlist>div:nth-child(5)>p:nth-child(2)>span:nth-child(1) a{
+   display: inline-block;
+   width: 24px;
+   height: 24px;
+   background: url(../img/img1/spriteImg9.png)
+ }
+ .inputlist>div:nth-child(5)>p:nth-child(2)>span:nth-child(1) a:nth-child(1){
+    background-position: -210px -194px;
+}
+.inputlist>div:nth-child(5)>p:nth-child(2)>span:nth-child(1) a:nth-child(2){
+    background-position: 0 -169px;
+}
+.inputlist>div:nth-child(5)>p:nth-child(2)>span:nth-child(1) a:nth-child(3){
+    background-position: 0 -140px;
+}
+
+.inputlist>div:nth-child(5)>p:nth-child(2)>span:nth-child(2)>a>span{
+    display: inline-block;
+    width: 12px;
+    height: 22px;
+    background: url(../img/img1/resiter.gif);
+    background-position: right -249px;
+}
+.inputlist>div:nth-child(5)>p:nth-child(2)>span:nth-child(2)>a>a{
+    display: inline-block;
+    height: 22px;
+    line-height: 22px;
+    margin-left: 5px;
+}
